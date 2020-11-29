@@ -1,0 +1,77 @@
+/****** Main Styling ******/
+
+html{
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(
+       https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+      )center fixed no-repeat;
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.footer {
+  margin-top: 60px;
+}
+
+a {
+  color: #2574A9;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+}
+
+
+h2{
+  font-family: 'Castoro', serif;
+  font-size: 45px;
+  margin: 20px auto;
+}
+h3{
+  font-family: 'Castoro', serif;
+  font-size: 22px;
+  margin: auto;
+}
+.view{
+  with: 80%;
+}
+a { color: #16ADFF}
+
+@media (min-width: 760px){
+  h2{
+  font-family: 'Castoro', serif;
+  font-size: 60px;
+  margin: 20px auto;
+}
+h3{
+  font-family: 'Castoro', serif;
+  font-size: 28px;
+  margin: auto;
+}
+.view{
+  with: 80%;
+}
+  body{
+    font-size: 22px;
+  }
+  input{
+    font-size: 22px;
+    padding: 5px;
+    margin: 5px auto;
+  }
+  .footer {
+  margin-top: 5vh;
+}
