@@ -12,6 +12,9 @@ Welcome to this incredible API to obtain the data of your files! It´s super sim
 
   - The design was updated to be more elegant
 
+
+
+
 ### How to use it?
 
 It´s really simple, just select a file from your computer/device and hit the upload button, it will automaticaly response with a JSON object with the metadata of your file.
@@ -21,6 +24,24 @@ It´s really simple, just select a file from your computer/device and hit the up
 ### Tech
 
 I have developed this full stack app using JavaScript, NodeJS, Express and Multer for the Back-End. If you want to clone the repository, make sure to install all these dependencies. It also has a front-end  desing implemented, made with HTML and CSS, so you can see it on action.
+
+Here you can find more info about them. 
+
+* [Express](https://expressjs.com/es/) - Fast node.js network app framework
+* [Multer](https://www.npmjs.com/package/multer) - A node.js middleware for handling multipart/form-data, which is primarily used for uploading files.
+* [Node.js](https://nodejs.org/es/docs/) - JavaScript runtime environment
+
+### Get Started
+
+This API requires [Node.js](https://nodejs.org/) to run.
+
+Clone the repository and then start the server with:
+
+```sh
+$ npm start
+```
+
+Please take a look at the dependencies that this API uses ([Express](https://expressjs.com/es/) and [Multer](https://www.npmjs.com/package/multer)).
 
 #### User Stories
 1. You can submit a form that includes a file upload.
@@ -35,4 +56,3 @@ License
 ----
 
 MIT
-
