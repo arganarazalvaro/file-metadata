@@ -6,7 +6,7 @@
 Welcome to this incredible API to obtain the data of your files! It´s super simple to use, and it has a front end design also, so you can use it directly from there.
 
   - Upload your file
-  - Get your file name, size, and type.
+  - Get your file name, size, and type
 
 ### New Features!
 
